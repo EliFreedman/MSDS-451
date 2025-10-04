@@ -1,2 +1,4 @@
 # Ignore CSV files
 *.csv
+# exception for raw data file
+!bhp_historical_data.csv
