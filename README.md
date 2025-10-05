@@ -1,17 +1,31 @@
 # Programming Assignment 1
 
+Author: Eli Freedman<br>
+Course: MSDS 451: Financial Engineering<br>
+Date: October 5, 2025
+
 ## Overview
 
-This programming assignment tasks developing a machine learning model to predict whether a stock, ETF, commodity, or other asset's price will trend up or down the following day. To successfully accomplish this, feature engineering, feature selection, and cross-validation should be employed in order to develop a comprehensive model.
+This programming assignment tasks developing a machine learning model to predict whether a stock, ETF, commodity, or other asset price will trend up or down the following day. To successfully accomplish this, feature engineering, feature selection, and cross-validation may be employed in order to develop a comprehensive model.
 
 For my variation of this project, I decided to focus on $BHP, a mining and metals company based out of Australia.
+
+## Structure
+
+`README.md`: Contains all information required to understand and run this assignment<br>
+`requirements.txt`: All Python modules used in this assignment<br>
+`programming_assignment_1.ipynb`: Code used to develop the predictive model<br>
+`programming_assignment_1.html`: HTML version of the notebook (better viewing)<br>
+`bhp_historical_data.csv`: Historical data of the $BHP ticker from 2000-2025<br>
+`bhp-with-computed-features.csv`: $BHP ticker data with additional engineered features
 
 ## Set Up
 
 1. Ensure you are running Python 3.12 or later. This project was developed using 3.12, so it may not be compatible with previous versions.
-2. Create a virtual environment by executing `python -m venv venv`
+2. Create a virtual environment by executing `python -m venv .venv`
 3. Enter the virtual environment
 4. Download the requirements by executing `pip -r requirements.txt`
+5. Run all cells in the `programming_assignment_1.ipynb` notebook
 
 ## AI Usage
 
