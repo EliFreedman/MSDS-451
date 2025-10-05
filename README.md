@@ -17,7 +17,9 @@ For my variation of this project, I decided to focus on $BHP, a mining and metal
 `programming_assignment_1.ipynb`: Code used to develop the predictive model<br>
 `programming_assignment_1.html`: HTML version of the notebook (better viewing)<br>
 `bhp_historical_data.csv`: Historical data of the $BHP ticker from 2000-2025<br>
-`bhp-with-computed-features.csv`: $BHP ticker data with additional engineered features
+`bhp-with-computed-features.csv`: $BHP ticker data with additional engineered features<br>
+`logistic_regression_confusion_matrix`: Confusion matrix for Logistic Regression model<br>
+`xgboost_confusion_matrix`: Confusion matrix for XGBoost model
 
 ## Set Up
 
